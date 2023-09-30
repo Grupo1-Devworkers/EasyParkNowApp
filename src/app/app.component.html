@@ -1,7 +1,8 @@
-<mat-toolbar class="toolbar">
-  <h1>EasyParkNow</h1>
-  <div class="mat-spacer"></div>
-  <a mat-button *ngFor="let option of options"
-  >{{ option.tittle }}</a>
+<mat-toolbar class="custom-toolbar">
+  <span>EasyParkNow</span>
+  <div class="home-right"></div>
+  <a mat-button *ngFor="let option of options" [routerLink]="option.path">
+    {{ option.tittle }}</a>
+
 </mat-toolbar>
 <router-outlet></router-outlet>

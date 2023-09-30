@@ -9,6 +9,8 @@ export class AppComponent {
   title = 'EasyParkNow';
 
   options = [
+    {path:'/home', tittle: 'Home'},
     { path : '/parking', tittle : 'Parking'},
+    { path : '/map', tittle : 'Map'},
   ]
 }
