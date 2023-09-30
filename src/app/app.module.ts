@@ -14,6 +14,7 @@ import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
 import { MapComponent } from './public/pages/map/map.component';
 import { HomeComponent } from './public/pages/home/home.component';
+import { ReviewsComponent } from './public/pages/reviews/reviews.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './public/pages/home/home.component';
     ParkingComponent,
     PageNotFoundComponent,
     MapComponent,
-    HomeComponent
+    HomeComponent,
+    ReviewsComponent
   ],
   imports: [
     AppRoutingModule,
