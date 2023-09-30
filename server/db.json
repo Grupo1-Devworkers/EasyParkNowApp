@@ -1,0 +1,12 @@
+{
+  "parkings": [
+    {
+      "name": "Marcos Ramirez Ojeda",
+      "model" : "Nissan Model XI",
+      "parking": "Parking Armix",
+      "distance": 25,
+      "available": 10,
+      "hours": "choose an option"
+    }
+  ]
+}

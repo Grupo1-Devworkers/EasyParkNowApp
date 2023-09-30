@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EasyParkNow';
+
+  options = [
+    { path : '/parking', tittle : 'Parking'},
+  ]
 }
