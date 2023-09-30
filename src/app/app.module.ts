@@ -12,12 +12,16 @@ import {AppRoutingModule} from "./app-routing.module";
 import {MatCardModule} from "@angular/material/card";
 import {MatInputModule} from "@angular/material/input";
 import {MatSelectModule} from "@angular/material/select";
+import { MapComponent } from './public/pages/map/map.component';
+import { HomeComponent } from './public/pages/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParkingComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    MapComponent,
+    HomeComponent
   ],
   imports: [
     AppRoutingModule,

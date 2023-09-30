@@ -7,3 +7,12 @@
 .mat-spacer{
   flex: 1 1 auto;
 }
+.custom-toolbar {
+  background-color: #b7ffb6;
+  color: black;
+}
+
+.home-right {
+  flex: 1 1 auto;
+}
+
